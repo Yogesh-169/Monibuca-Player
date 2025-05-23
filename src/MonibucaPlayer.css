@@ -1,0 +1,45 @@
+.monibuca-player-container {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.player-error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ff4d4f;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  z-index: 10;
+}
+
+.player-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.player-controls button {
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.player-controls button:hover {
+  background-color: #40a9ff;
+}
+
+.player-controls button:active {
+  background-color: #096dd9;
+}
